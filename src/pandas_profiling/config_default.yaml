@@ -93,16 +93,16 @@ correlations:
       warn_high_correlations: false
       threshold: 0.9
     kendall:
-      calculate: true
+      calculate: false
       warn_high_correlations: false
       threshold: 0.9
     phi_k:
-      calculate: true
+      calculate: false
       warn_high_correlations: false
       threshold: 0.9
     cramers:
-      calculate: true
-      warn_high_correlations: true
+      calculate: false
+      warn_high_correlations: false
       threshold: 0.9
 
 
@@ -199,7 +199,7 @@ html:
     # Styling options for the HTML report
     style:
       theme: null
-      logo: ""
+      logo: "GUPC"
       primary_color: "#337ab7"
 
     full_width: false
